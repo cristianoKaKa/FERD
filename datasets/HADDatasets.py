@@ -4,8 +4,7 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset
 from torchvision import transforms
-from skimage import transform as sk_transform
-import random
+
 
 class HADDataset(Dataset):
     def __init__(self,
