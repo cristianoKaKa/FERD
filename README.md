@@ -8,7 +8,7 @@ This repository contains the implementation of the algorithm described in the pa
 
 ### Dataset
 
-https://zhaoxuli123.github.io/HAD100/
+HAD100: https://zhaoxuli123.github.io/HAD100/
 
 ### Environment
 
@@ -19,7 +19,7 @@ https://zhaoxuli123.github.io/HAD100/
 
 ### Running Tests
 
-To run the tests, use the following command:
+To run the tests on HAD100, use the following command:
 
 - For first 50 bands test:
 ```bash
@@ -34,7 +34,7 @@ python test.py --input_channel 100
 python test.py --input_channel 200
 ```
 
-### Running Training
+### Running Training on HAD100
 
 ```bash
 python train.py
