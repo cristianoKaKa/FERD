@@ -1,0 +1,1 @@
+ This directory contains the code for the second part of the experiments presented in our paper. It is primarily used to test the enhancement effect of the Feature Enhancement Network (FEN) on the anomaly detection algorithm based on Mahalanobis distance. The 'utils/SLRX.py' file includes the patch-based LRX algorithm designed by us.
