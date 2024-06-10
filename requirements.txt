@@ -2,3 +2,5 @@ torch
 torchvision
 numpy
 scikit-learn
+IPython
+tqdm
