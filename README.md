@@ -55,11 +55,11 @@ python train.py
 
 ## Feature Enhancement Performance on Other Real-World Scenes
 
-|     Scenes    | GRX AUC | GRX Time | FEN+GRX AUC | FEN+GRX Time | SLRX AUC | SLRX Time | FEN+SLRX AUC | FEN+SLRX Time |
-|---------------|---------|----------|-------------|--------------|----------|-----------|--------------|---------------|
-| Abu-airport-1 | 0.8248  | 0.13     | **0.9478**  | 0.29         | 0.9471   | 1.79      | **0.9653**   | 1.93          |
-| Abu-airport-2 | 0.8433  | 0.13     | **0.9861**  | 0.29         | 0.9527   | 1.79      | **0.9869**   | 1.93          |
-|   Tularosa    | 0.9126  | 0.43     | **0.9868**  | 0.60         | 0.9396   | 6.51      | **0.9723**   | 6.73          |
+| **Scenes**      | **GRX AUC** | **GRX Time (s)** | **FEN+GRX AUC** | **FEN+GRX Time (s)** | **SLRX AUC** | **SLRX Time (s)** | **FEN+SLRX AUC** | **FEN+SLRX Time (s)** |
+|-----------------|-------------|------------------|-----------------|----------------------|--------------|-------------------|------------------|----------------------|
+| Abu-airport-1   | 0.8248      | 0.13             | **0.9478**      | 0.29                 | 0.9471       | 1.79              | **0.9653**       | 1.93                 |
+| Abu-airport-2   | 0.8433      | 0.13             | **0.9861**      | 0.29                 | 0.9527       | 1.79              | **0.9869**       | 1.93                 |
+| Tularosa        | 0.9126      | 0.43             | **0.9868**      | 0.60                 | 0.9396       | 6.51              | **0.9723**       | 6.73                 |
 
 The experimental code is located in the Supp_Exp folder, which includes the code for FERD as well as GRX and SLRX. SLRX is a more efficient Local RX algorithm designed by us, which uses a fixed patch instead of the traditional sliding window in Local RX algorithms.
 
