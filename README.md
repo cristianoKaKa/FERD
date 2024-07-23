@@ -61,7 +61,7 @@ python train.py
 | Abu-airport-2   | 0.8433      | 0.13             | **0.9861**      | 0.29                 | 0.9527       | 1.79              | **0.9869**       | 1.93                 |
 | Tularosa        | 0.9126      | 0.43             | **0.9868**      | 0.60                 | 0.9396       | 6.51              | **0.9723**       | 6.73                 |
 
-The experimental code is located in the Supp_Exp folder, which includes the code for FERD as well as GRX and SLRX. SLRX is a more efficient Local RX algorithm designed by us, which uses a fixed patch instead of the traditional sliding window in Local RX algorithms.
+The experimental code is located in the `Supp_Exp` folder, which includes the code for FERD as well as GRX and SLRX. SLRX is a more efficient Local RX algorithm designed by us, which uses a fixed patch instead of the traditional sliding window in Local RX algorithms.
 
 The trained model in TorchScript format can be found at [https://huggingface.co/xjpha/FERD](https://huggingface.co/xjpha/FERD). This model can be used for anomaly detection feature enhancement in any scenario with just a few lines of code:
 
