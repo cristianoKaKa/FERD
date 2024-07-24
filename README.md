@@ -10,18 +10,11 @@ Most hyperspectral anomaly detection methods based on trainable parameter networ
 
 ![image](https://github.com/cristianoKaKa/FERD/blob/master/framework.png)
 
-## Usage on HAD100 Dataset
+## Performance on HAD100 Dataset
 
 ### Dataset
 
 HAD100: https://zhaoxuli123.github.io/HAD100/
-
-### Environment
-
-- torch
-- torchvision
-- numpy
-- scikit-learn
 
 ### Running Tests
 
