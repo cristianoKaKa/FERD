@@ -83,7 +83,6 @@ If this repo works positively for your research, please consider citing our pape
   journal={IEEE Geoscience and Remote Sensing Letters}, 
   title={Feature Enhancement with Reverse Distillation for Hyperspectral Anomaly Detection}, 
   year={2024},
-  keywords={Decoding;Training;Hyperspectral imaging;Feature extraction;Anomaly detection;Image reconstruction;Codes;Anomaly detection;hyperspectral image;reverse distillation},
   doi={10.1109/LGRS.2024.3456178}
 }
 ```
