@@ -79,10 +79,11 @@ enhanced_hsi, _ = pfl(rnl(cwl(hsi)), hsi)
 If this repo works positively for your research, please consider citing our paper. Thanks all!
 ```
 @article{jin2024feature,
-  title={Feature Enhancement with Reverse Distillation for Hyperspectral Anomaly Detection},
   author={Jin, Wenping and Dang, Feng and Zhu, Li},
-  journal={Authorea Preprints},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={Feature Enhancement with Reverse Distillation for Hyperspectral Anomaly Detection}, 
   year={2024},
-  publisher={Authorea}
+  keywords={Decoding;Training;Hyperspectral imaging;Feature extraction;Anomaly detection;Image reconstruction;Codes;Anomaly detection;hyperspectral image;reverse distillation},
+  doi={10.1109/LGRS.2024.3456178}
 }
 ```
